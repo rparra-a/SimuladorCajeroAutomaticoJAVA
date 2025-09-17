@@ -35,7 +35,7 @@ public class Main {
             System.out.println("[4] Salir");
             System.out.println("Ingrese la opcion que desea realizar: ");
             opcion = scanner.next();
-
+            //validar opciones
             switch (opcion){
                 case "1":
                     System.out.println("Su saldo actual es: " + saldoInicial);
